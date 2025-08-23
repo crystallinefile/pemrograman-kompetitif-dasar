@@ -73,4 +73,5 @@ int main(){
         }
 
         cout << "N bilangan prima" << endl;
+
     }
