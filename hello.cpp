@@ -1,124 +1,124 @@
-// // #include <bits/stdc++.h>
-// // using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-// // int main(){
-// //     bool lampu[101];
-// //     for(int i = 1; i <= 100; i++){
-// //         lampu[i] = false;
-// //     }
+// int main(){
+//     bool lampu[101];
+//     for(int i = 1; i <= 100; i++){
+//         lampu[i] = false;
+//     }
 
-// //     for(int p = 1; p <= 10; p++){
-// //         for(int i = 1; i <= 100; i++){
-// //             if(i % p == 0){
-// //                 lampu[i] = !lampu[i];
-// //             }
-// //         }
-// //     }
-// //     int lampu_menyala = 0;
-// //     for(int i = 1; i <= 100; i++){
-// //         if(lampu[i] == true){
-// //             lampu_menyala++;
-// //         }
-// //     }
-// //     cout << lampu_menyala << endl;
+//     for(int p = 1; p <= 10; p++){
+//         for(int i = 1; i <= 100; i++){
+//             if(i % p == 0){
+//                 lampu[i] = !lampu[i];
+//             }
+//         }
+//     }
+//     int lampu_menyala = 0;
+//     for(int i = 1; i <= 100; i++){
+//         if(lampu[i] == true){
+//             lampu_menyala++;
+//         }
+//     }
+//     cout << lampu_menyala << endl;
+// }
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int luas[4][3] = {
+//         {225 * 335, 299 * 278, 300 * 250},
+//         {215 * 394, 144 * 718, 300 * 290},
+//         {200 * 400, 240 * 333, 142 * 619},
+//         {314 * 298, 411 * 198, 333 * 222}
+//     };
+
+//     int harga_jual[3] = {100,120,150};
+//     int harga_1 = 0;
+//     int harga_2 = 0;
+//     int harga_3 = 0;
+
+//     for (int i = 0; i < 4; i++) {
+//         for (int j = 0; j < 3; j++) {
+//             if (j == 0) {
+//                 int tambah_1 = luas[i][j] * 100;
+//                 harga_1 += tambah_1;
+//             }
+//             if (j == 1){
+//                 int tambah_2 = luas[i][j] *= 120;
+//                 harga_2 += tambah_2;
+//             }
+//             if (j == 2){
+//                 int tambah_3 = luas[i][j] *= 150;
+//                 harga_3 += tambah_3;
+//             }
+//         }
+//     }
+
+//     cout  << harga_1 << endl;
+//     cout  << harga_2 << endl;
+//     cout  << harga_3 << endl;
+// }
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     int jantan[4] = {0, 10, 50, 60};
+//     int betina[4] = {7, 80, 9, 40};
+
+//     for(int i = 0; i < 4; i++){
+//         int harga_bebek;
+//         if(jantan[i] < 10){
+//             harga_bebek = 100000;
+//         } else if (jantan[i] <= 50 ){
+//             harga_bebek = 75000;
+//         } else {
+//             harga_bebek = 50000;
+//         }
+//         int biaya_jantan = jantan[i] * harga_bebek;
+
+//         if(betina[i] < 10){
+//             harga_bebek = 100000;
+//         } else if(betina[i] <= 50){
+//             harga_bebek = 75000;
+//         } else {
+//             harga_bebek = 50000;
+//         }
+//         int biaya_betina = betina[i] * harga_bebek;
+
+//         cout << biaya_jantan + biaya_betina << endl;
+//     }
 // // }
 
-// // #include <iostream>
-// // using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-// // int main() {
-// //     int luas[4][3] = {
-// //         {225 * 335, 299 * 278, 300 * 250},
-// //         {215 * 394, 144 * 718, 300 * 290},
-// //         {200 * 400, 240 * 333, 142 * 619},
-// //         {314 * 298, 411 * 198, 333 * 222}
-// //     };
-
-// //     int harga_jual[3] = {100,120,150};
-// //     int harga_1 = 0;
-// //     int harga_2 = 0;
-// //     int harga_3 = 0;
-
-// //     for (int i = 0; i < 4; i++) {
-// //         for (int j = 0; j < 3; j++) {
-// //             if (j == 0) {
-// //                 int tambah_1 = luas[i][j] * 100;
-// //                 harga_1 += tambah_1;
-// //             }
-// //             if (j == 1){
-// //                 int tambah_2 = luas[i][j] *= 120;
-// //                 harga_2 += tambah_2;
-// //             }
-// //             if (j == 2){
-// //                 int tambah_3 = luas[i][j] *= 150;
-// //                 harga_3 += tambah_3;
-// //             }
-// //         }
-// //     }
-
-// //     cout  << harga_1 << endl;
-// //     cout  << harga_2 << endl;
-// //     cout  << harga_3 << endl;
-// // }
-
-
-// // #include <bits/stdc++.h>
-// // using namespace std;
-
-// // int main(){
-// //     int jantan[4] = {0, 10, 50, 60};
-// //     int betina[4] = {7, 80, 9, 40};
-
-// //     for(int i = 0; i < 4; i++){
-// //         int harga_bebek;
-// //         if(jantan[i] < 10){
-// //             harga_bebek = 100000;
-// //         } else if (jantan[i] <= 50 ){
-// //             harga_bebek = 75000;
-// //         } else {
-// //             harga_bebek = 50000;
-// //         }
-// //         int biaya_jantan = jantan[i] * harga_bebek;
-
-// //         if(betina[i] < 10){
-// //             harga_bebek = 100000;
-// //         } else if(betina[i] <= 50){
-// //             harga_bebek = 75000;
-// //         } else {
-// //             harga_bebek = 50000;
-// //         }
-// //         int biaya_betina = betina[i] * harga_bebek;
-
-// //         cout << biaya_jantan + biaya_betina << endl;
-// //     }
-// // // }
-
-// // #include <bits/stdc++.h>
-// // using namespace std;
-
-// // int biaya(int total_bebek){
+// int biaya(int total_bebek){
     
-// //     int harga_bebek;
-// //     if(total_bebek < 10){
-// //         harga_bebek = 100000;
-// //     } else if(total_bebek <= 50){
-// //         harga_bebek = 75000;
-// //     } else {
-// //         harga_bebek = 50000;
-// //     }
-// //     return harga_bebek * total_bebek;
-// // }
+//     int harga_bebek;
+//     if(total_bebek < 10){
+//         harga_bebek = 100000;
+//     } else if(total_bebek <= 50){
+//         harga_bebek = 75000;
+//     } else {
+//         harga_bebek = 50000;
+//     }
+//     return harga_bebek * total_bebek;
+// }
 
-// // int main(){
-// //     int jantan[4] = {0, 10, 50, 60};
-// //     int betina[4] = {7, 80, 9, 40};
+// int main(){
+//     int jantan[4] = {0, 10, 50, 60};
+//     int betina[4] = {7, 80, 9, 40};
 
-// //     for(int i = 0; i < 4; i++){
-// //         int biaya_jantan =biaya(jantan[i]);
-// //         int biaya_betina = biaya(betina[i]);
-// //         cout << biaya_jantan + biaya_betina << endl;
-// //     }
-// // }
+//     for(int i = 0; i < 4; i++){
+//         int biaya_jantan =biaya(jantan[i]);
+//         int biaya_betina = biaya(betina[i]);
+//         cout << biaya_jantan + biaya_betina << endl;
+//     }
+// }
 
 // #include <iostream>
 // using namespace std;
@@ -913,36 +913,36 @@
 //     return 0;
 // }
 
-#include <bits/stdc++.h>
-#define ll long long
-using namespace std;
+// #include <bits/stdc++.h>
+// #define ll long long
+// using namespace std;
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
 
-    int n;
-    cin >> n;
-    vector<int> c(n);
-    // int terbanyak = 0;
-    for(int i = 0; i < n; i++){
-        cin >> c[i];
-    }
-    int maxfreq = 0;
-    for(int i = 0; i < n; i++){
-        int hitung = 0;
-        for(int j = 0; j < n; j++){
-            if(c[i] == c[j]){
-                hitung++;
-            }
-        }
-        if(hitung > maxfreq){
-            maxfreq = hitung;
-        }
-    }
-    // cout << maxfreq << endl;
-    int output = n - maxfreq;
-    cout << output << endl;
-    return 0;
-}
+//     int n;
+//     cin >> n;
+//     vector<int> c(n);
+//     // int terbanyak = 0;
+//     for(int i = 0; i < n; i++){
+//         cin >> c[i];
+//     }
+//     int maxfreq = 0;
+//     for(int i = 0; i < n; i++){
+//         int hitung = 0;
+//         for(int j = 0; j < n; j++){
+//             if(c[i] == c[j]){
+//                 hitung++;
+//             }
+//         }
+//         if(hitung > maxfreq){
+//             maxfreq = hitung;
+//         }
+//     }
+//     // cout << maxfreq << endl;
+//     int output = n - maxfreq;
+//     cout << output << endl;
+//     return 0;
+// }
 
