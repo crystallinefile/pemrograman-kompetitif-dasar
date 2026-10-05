@@ -1,44 +1,44 @@
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
+// // #include <bits/stdc++.h>
+// // #define ll long long
+// // using namespace std;
 
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
+// // int main() {
+// //     ios::sync_with_stdio(false);
+// //     cin.tie(nullptr);
 
-//     //exercise 1
-//     // double f;
-//     // cin >> f;
-//     // double rumus_celsius = (f - 32) * 5 / 9;
-//     // cout << "A temperature of 100F equals " << rumus_celsius << " C" << endl;
+// //     //exercise 1
+// //     // double f;
+// //     // cin >> f;
+// //     // double rumus_celsius = (f - 32) * 5 / 9;
+// //     // cout << "A temperature of 100F equals " << rumus_celsius << " C" << endl;
 
-//     //exercise 2
-//     double radius;
-//     cin >> radius;
-//     double height;
-//     cin >> height;
-//     const double pi = acos(-1.0);
-//     double formula = pi * radius * radius * height;
-//     cout << "Acylinder with radius " << radius << "cm and height " << height << "cm has volume of " << formula << endl;
-//     return 0;
-// }
+// //     //exercise 2
+// //     double radius;
+// //     cin >> radius;
+// //     double height;
+// //     cin >> height;
+// //     const double pi = acos(-1.0);
+// //     double formula = pi * radius * radius * height;
+// //     cout << "Acylinder with radius " << radius << "cm and height " << height << "cm has volume of " << formula << endl;
+// //     return 0;
+// // }
 
-//exercise 3
-// #include <bits/stdc++.h>
-// using namespace std;
+// //exercise 3
+// // #include <bits/stdc++.h>
+// // using namespace std;
 
-// int main(){
-//     int number;
-//     cin >> number;
-//     int second_digit = (number % 100) / 10;
-//     cout << "The second digit from the number is " << second_digit << endl;
+// // int main(){
+// //     int number;
+// //     cin >> number;
+// //     int second_digit = (number % 100) / 10;
+// //     cout << "The second digit of " << number  << " is " << second_digit << endl;
 
-// }
-
-
+// // }
 
 
-// //Quiz 1
+
+
+//Quiz 1
 // #include <bits/stdc++.h>
 // using namespace std;
 
@@ -53,157 +53,34 @@
 //     double rumus = (pi * r * r * h)/3; 
 //     cout << "nilai r = " << r << endl;
 //     cout << "nilai h = " << h << endl;
-//     cout << "volume dari kerucut tersebut = " << setprecision(5) << rumus << endl;
+//     cout << "volume dari kerucut tersebut = " << setprecision(12) << rumus << endl;
 // }
 
 
 
-//Activity 1
+// //Quiz 2
 // #include <bits/stdc++.h>
-// #define ll long long
 // using namespace std;
 
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int day;
-//     string days;
-//     cout << "Enter today's day[1 - 7] : " << flush;
-//     cin >> day;
-
-//     if(day >= 1 && day <= 7){
-//             switch(day){
-//                 case 1:
-//                 days = "Monday";
-//                 break;
-//                 case 2:
-//                 days = "Tuesday";
-//                 break;
-//                 case 3:
-//                 days = "Wednesday";
-//                 break;
-//                 case 4:
-//                 days = "Thursday";
-//                 break;
-//                 case 5:
-//                 days = "Friday";
-//                 break;
-//                 case 6:
-//                 days = "Saturday";
-//                 break;
-//                 case 7:
-//                 days = "Sunday";
-//                 break;
-//             }
-//             cout << "Today is " << days << endl;
-//             } else {
-//                 cout << "Wrong number!";
-//             }
-
-//     return 0;
-// }
-
-
-
-
-
-//activity 2
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int number1, number2;
-//     cout << "enter number 1 : " << flush;
-//     cin >> number1;
-//     cout << "enter number 2 : " << flush;
-//     cin >> number2;
-//     for(int i = number1 + 1; i < number2; i++){
-//         cout << i << " " ;
-//     }
-
-//     return 0;
-// }
-
-
-//Activity 3
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int number1, number2;
-//     cout << "enter number 1 : " << flush;
-//     cin >> number1;
-//     cout << "enter number 2 : " << flush;
-//     cin >> number2;
-//     for(int i = number1 + 1; i < number2; i ++){
-//         if(i % 2 == 0){
-//         cout << i << " ";
-//         }
-//     }
-
-//     return 0;
-// }
-
-
-// //Activity 4
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int number1, number2;
-//     cout << "enter number 1 : " << flush;
-//     cin >> number1;
-//     cout << "enter number 2 : " << flush;
-//     cin >> number2;
-//     int sum = 0;
-//     for(int i = number1 + 1; i < number2; i++){
-//         if(i%2 == 0){
-//             sum += i;
-//         }
-//     }
-//     cout << "sum = " << sum << endl;
-
-//     return 0;
-// }
-
-
-//activity 5
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
+// //total_ndigits
+// int main(){
 //     int number;
-//     cout << "Enter your number : " << flush;
 //     cin >> number;
-//     cout << endl;
-//     for(int i = 1; i <= number; i++){
-//         for(int j = 1; j <= i; j++){
-//             cout << j << " ";
-//         }
-//         cout << endl;
-//     }
 
-//     return 0;
+//     int first_digit = number / 100;
+//     // cout << first_digit << endl; 
+
+//     int second_digit = (number / 10) % 10;
+//     // cout << second_digit << endl;
+
+//     int third_digit = number % 10;
+//     // cout << third_digit << endl;
+
+//     int total_number = first_digit + second_digit + third_digit;
+
+//     cout << "The sum of all digit is " << total_number << endl;
 // }
 
-//Activity 6
 // #include <bits/stdc++.h>
 // #define ll long long
 // using namespace std;
@@ -212,21 +89,20 @@
 //     ios::sync_with_stdio(false);
 //     cin.tie(nullptr);
 
-//     int n;
-//     bool repeat = true;
-//     while(repeat){
-//         cout << "Enter your number " << flush;
-//         cin >> n;
-//         cout << "Your number is " << n << endl;
-//         cout << "Do you want to repeat ? " << flush;
-//         cin >> repeat;
-//     }
-//     cout << " Program ends ";
+//     double number = 10.7;
+//     double rumus = number * number;
+//     cout << rumus << endl;
+
+//     int a = 341 % 10;
+//     int b = 10;
+
+
 
 //     return 0;
 // }
 
-//Activity 7
+//ACTIVITY 1 USD to IDR CALCULATOR
+
 // #include <bits/stdc++.h>
 // #define ll long long
 // using namespace std;
@@ -235,97 +111,88 @@
 //     ios::sync_with_stdio(false);
 //     cin.tie(nullptr);
 
-//     int n;
+//     int USD;
+//     cout << "Masukkan nilai mata uangmu (dalam USD) = " << flush;
+//     cin >> USD;
+//     int nilai_tukar = 17845;
+//     int idr = USD * nilai_tukar;
+//     cout << USD << " USD = " << idr << " IDR" << endl;
+
+//     return 0;
+// }
+
+//ACTIVITY 2 RIGHT TRIANGLE CALCULATOR
+
+// #include <bits/stdc++.h>
+// #define ll long long
+// using namespace std;
+
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
+
+//     int base, height;
+//     cout <<"Masukkan panjang alas : " << flush;
+//     cin >> base;
+//     cout << "Masukkan tinggi segitiga : " << flush;
+//     cin >> height;
+//     double luas = (base * height) / 2;
+
+//     cout << "Luas segitiga = " << luas << endl;
+//     return 0;
+// }
+
+//ACTIVITY 3 PASSWORD CHECKER
+
+// #include <bits/stdc++.h>
+// #define ll long long
+// using namespace std;
+
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
+
+//     int password;
+//     int saved_password = 1234;
+//     cout << "Masukkan password anda = " << flush;
+//     cin >> password;
+
+//     bool match = (saved_password == password);
+
+//     if(match){
+//         cout << "Password match!";
+//     } else {
+//         cout << "Password doesn't match!";
+//     }
+
+//     return 0;
+// }
+
+//ACTIVITY 4 EVEN-ODD CHECKER
+
+// #include <bits/stdc++.h>
+// #define ll long long
+// using namespace std;
+
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
+
 //     int number;
-//     cout << "How many numbers ? " << flush;
-//     cin >> n;
-//     int sum = 0;
-//     for(int i = 1; i <= n; i++){
-//         cout << "Input your number : " << flush;
-//         cin >> number;
-//         sum += number;
-//     }
-//     cout << "The total is " << sum ;
-
-//     return 0;
-// }
-
-
-
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int n = 7;
-//     for(int i = 1; i <= n; i++){
-//         for(int j = 1; j <= n; j++){
-//             cout << j << " ";
-//     }
-//        cout << endl;
-//     }
-
-//     return 0;
-// }
-
-
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int n = 7;
-//     for(int i = n; i >= 1; i--){
-//         for(int j = 1; j < i; j++){
-//             cout << "  ";
-//         }
-        
-//         for(int k = i; k <=n; k++){
-//             cout << k << " ";
-//         }
-//         cout << endl;
-//     }
-
-//     return 0;
-// } 
-
-
-//Activity 1
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int number;
-    
+//     cout << "Masukkan angka = " << flush;
 //     cin >> number;
-//     cout << "Enter a number : " << number << endl;
-//     for(int i = 1; i <= number; i++){
-//         if(i == 4){
-//             continue;
-//         }
-//         cout << i << " " << endl;
+//     int hasil = number % 2;
+//     if(hasil == 0){
+//         cout << "Genap!" << endl;
+//     } else {
+//         cout << "Ganjil!" << endl;
 //     }
-//     string member[3] = {"Ani", "Budi", "Wati"};
-//     for(int i = 0; i < 3; i++){
-//     cout << member[i] << endl;
-//     }
-//     for(string m : member){
-//         cout << m << endl;
-//     }
+
 //     return 0;
 // }
 
-//Activity 2
+//FINAL SCORE CALCULATOR
+
 // #include <bits/stdc++.h>
 // #define ll long long
 // using namespace std;
@@ -334,91 +201,29 @@
 //     ios::sync_with_stdio(false);
 //     cin.tie(nullptr);
 
-//     int numbers[5] = {10, 20, 30, 40, 50};
-//     int sum = 0;
-//     for(int i = 0; i < 5; i++){
-//         sum += numbers[i];
-//     }
-//     cout << sum << endl;
-
-//     return 0;
-// }
-
-// Activity 3
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     bool isMember;
-//     int memberID;
-//     string name;
-//     int entranceFee;
-//     string members[5] = {"Ani", "Budi", "Wati", "Iwan", "Santi"};
-//     cout << "Welcome to the book store" << endl;
-//     cout << "Are you a member? (If yes type 1/ If no type 0) " << flush;
-//     cin >> isMember ;
-
-//     switch (isMember){
-//         case 1: {
-//             cout << "Enter memberID (0-4):" << flush;
-//             cin >> memberID;
-
-//             if(memberID >= 0 && memberID < 5){
-//                 name = members[memberID];
-//                 entranceFee = 0;
-//             } else {
-//                 cout << "Invalid member ID!" << endl;
-//                 return 1;
-//             }
-//             break;
-//         }
-//         default:{
-//             entranceFee = 1000;
-//             name = "Guest";
-//             break;
-//         }       
-//     }
-
-//     cout << "Welcome " << name << ", your entrance fee is " << entranceFee << " rupiah " << endl;
+//     int nilai;
+//     cout << "Input nilai = " << flush;
+//     cin >> nilai;
     
+//         if (nilai < 0 || nilai > 100) {
+//             cout << "Nilai tidak sah" << endl;
+//         } else if(nilai <= 20){
+//             cout << "Score = E " << endl;
+//         } else if(nilai <= 40){
+//             cout << "Score = D " << endl;
+//         } else if(nilai <= 60){
+//             cout << "Score = C " << endl;
+//         } else if(nilai <= 80){
+//             cout << "Score = B " << endl;
+//         } else if(nilai <= 100){
+//             cout << "Score = A " << endl;
+//         } 
 
-//     string title [5] = {"Harry Potter", "Algorithm", "Calculus", "Sherlock Holmes", "Supernova"};
-//     int price [5] = {250000, 85000, 130000, 270000, 180000};
-//     bool available [5] = {1, 1, 0, 1, 1};  
-//     int bookID;
-
-//     cout << "Below are available books" << flush;
-//     cout << endl;
-//     for(int i = 0; i < 5; i++){
-//         if(available[i] == false){
-//             continue;
-//         }
-//         cout << "BOOK ID " << i << ", title : " << title[i] << ", price : " << price[i] << endl;
-//     }
-
-
-//     int total_price;
-
-//     while(true){
-//     cout << "Select book ID : " << flush;
-//     cin >> bookID;
-//     if(bookID >= 0 && bookID < 5){
-//        break;
-//     } 
-//     cout << "Wrong bookID! Please input again!" << endl;
-// }
-
-// total_price = entranceFee + price[bookID];
-// cout << "Your selected book is " << title[bookID] << ", with a total price of : Rp " << total_price; 
-
-//     //Inquiry book ID 
 //     return 0;
 // }
 
+
+//ATM SIMULATION
 // #include <bits/stdc++.h>
 // #define ll long long
 // using namespace std;
@@ -427,305 +232,136 @@
 //     ios::sync_with_stdio(false);
 //     cin.tie(nullptr);
 
-// int data[5] = {1, 2, 3, 4, 5};
-// for(int i = 0; i < 5; i++){
-// cout << data[i] <<  endl;
-// }
+//     int pin = 270507;
+//     int saldo = 100000;
+//     int test_pin;
+//     cout << "Enter your PIN : " << flush;
+//     cin >> test_pin;
 
-//     return 0;
-// }
-
-
-//BIOSKOP
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int main() {
-
-
-//     bool answer;
-//     string jawaban;
- 
-//     cout << "---Selamat datang di BIOSKOP XXXX---" << endl;
-//     cout << "Apakah anda sudah memesan ticket untuk tempat duduk? (Y/N)" << flush;
-//     cin >> jawaban;
-//     if(jawaban == "Y" || jawaban == "y"){
-//         answer = true;
-//     } else if(jawaban == "N" || jawaban == "n"){
-//         answer = false;
-//     }
-
-//     bool kursi_bioskop[5][10] = {
-//         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-//         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-//         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-//         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-//         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
-// };
-
-//     int position;
-//     if(answer == false){
-        
-//         cout << "Silahkan memesan ticket terlebih dahulu dengan memilih nomor kursi (1 - 50) : ";
-//         cin >> position;
-
-//         if(position >= 1 && position <= 50){
-//             int row = (position - 1) / 10;
-//             int col = (position - 1) % 10;
-//             kursi_bioskop[row][col] = 0; 
-//             cout << "Pemesanan berhasil untuk kursi nomor " << position << endl; 
+//     bool match = (pin == test_pin);
+    
+//     int ambil;
+//     if(match){
+//         cout << "Current Balance : " << saldo << flush << endl;
+//         cout << "The amount of money to be withdrawn : " << flush;
+//         cin >> ambil;
+//         if(ambil > 10000000){
+//             cout << "Over daily limit! Program ends." << endl;
+//         } else if (ambil > saldo - 50000){
+//             cout << "Insufficient funds! Program ends." << endl;
 //         } else {
-//             cout << "Nomor kursi tidak valid" << endl;
+//             cout << "Withdrawal complete, current balance : " << saldo - ambil << " IDR " << endl;
 //         }
 //     } else {
-//         cout << "Selamat menonton!" << endl;
+//         cout << "Pin does not match, program ends!" << endl;
 //     }
-
-//     cout << "---DENAH KURSI BIOSKOP---" << endl;
-//     for(int i = 0; i < 5; i++){
-//         for(int j = 0; j < 10; j++){
-//             cout << kursi_bioskop[i][j] << " ";
-//         }
-//         cout << endl;
-//     } 
- 
-
-//     return 0;
-// }
-
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// void sayHello(string name = "HASAN", int number = 7){
-//     cout << "HELLO " << name << endl;
-//     cout << "Your number is " << number << endl;
-// }
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     sayHello();
-//     sayHello("CC");
-//     sayHello("BB", 11);
-
 //     return 0;
 // }
 
 
-//Activity 1
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// const double pi = acos(-1.0);
-
-// double circleArea(double r){
-//     return pi * r * r; 
-// }
-
-// double cylinderVolume(double r, double h){
-//     return circleArea(r) * h;
-// }
-
-// double coneVolume(double r, double h){
-//     return cylinderVolume(r,h) / 3;
-// }
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     double radius = 10.0;
-//     double height = 30.0;
-//     cout << "Circle area = "<< circleArea(radius) << endl;
-//     cout << "Cylinder volume = " << cylinderVolume(radius, height) << endl;
-//     cout << "Cone volume = " << coneVolume(radius, height) << endl;
-
-//     return 0;
-// }
-
-
-
-//Activity 2
-
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int fact(int n){
-//     int hasil = 1;
-//     for(int i = 2; i <= n; i++){
-//         hasil *= i;
-//     }
-//     return hasil;
-// }
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int result = fact(5) + fact(4);
-//     cout << "The result is " << result << endl;
-//     return 0;
-// }
-
-// Activity 3
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-
-// void printDate(int tanggal, int bulan, int tahun){
-//     string namaBulan;
-//     switch(bulan){
-//         case 1 : namaBulan = "Januari"; break;
-//         case 2 : namaBulan = "Februari"; break;
-//         case 3 : namaBulan = "Maret"; break;
-//         case 4 : namaBulan = "April"; break;
-//         case 5 : namaBulan = "Mei"; break;
-//         case 6 : namaBulan = "Juni"; break;
-//         case 7 : namaBulan = "Juli"; break;
-//         case 8 : namaBulan = "Agustus"; break;
-//         case 9 : namaBulan = "September"; break;
-//         case 10 : namaBulan = "Oktober"; break;
-//         case 11 : namaBulan = "November"; break;
-//         case 12 : namaBulan = "Desember"; break;
-//         default : namaBulan = "Salah"; break;
-//     } 
-
-//     cout << "The date is " << tanggal << " " << namaBulan << " " << tahun;
-// }
-
-// void printDate(int tanggal, string bulan, int tahun){
-//     cout << "The date is " << tanggal << " " << bulan  << " " << tahun;
-// }
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     printDate(5, 12, 2026);
-//     cout << endl;
-//     printDate(7, "July", 2025);
-
-//     return 0;
-// }
-
-
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int x = 5;
-
-// void printX(){
-//     int x = 7;
-//     cout << x << endl;
-// }
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     cout << x << endl;
-//     printX();
-
-//     return 0;
-// }
-
-//Activity 4
-// #include <bits/stdc++.h>
-// #define ll long long
-// using namespace std;
-
-// int factorial(int n){
-//     if(n <= 1) return 1;
-//     int fact;
-    
-//     return fact = n * factorial(n-1);   
-// }
-
-// int main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int result = factorial(5) + factorial(4);
-//     cout << "The result is " << result << endl;
-
-//     return 0;
-// }
-
-//BIOSKOP
+//Quiz 1 Fibonacci
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
 
-int pilihFilm(){
-    vector <string> namaFilm = {"A", "B", "C", "D", "E"};
-    vector <int> harga = {10000, 10000, 20000, 30000, 50000};
-    cout << "== DAFTAR FILM ==" << endl;
-    for(int i = 0; i < 5; i++){
-        cout << i + 1 << ". Nama Film = " << namaFilm[i] << ", harga ticket = " << harga[i] << endl; 
+int fibonacci(int n){
+    if(n == 0){
+        return 0;
     }
-    int pilihan;
-    cout << "Pilih nomor film (1 - 5) : ";
-    cin >> pilihan;
+    if(n == 1){
+         return 1;
+    }
+    return fibonacci (n - 1) + fibonacci(n - 2);
+} 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    return harga[pilihan - 1];
+    int n;
+    cin >> n;
+    
+    for(int i = 0; i < n; i++){
+        cout << fibonacci(i) << (i == (n - 1)? "" : ", ") ;
+    }
+
+    return 0;
 }
 
 
-int pilih_kursi(){
 
-    bool kursi_bioskop[5][10];
+//Quiz 2
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
 
-    for(int i = 0; i < 5; i++){
-        for(int j = 0; j < 10; j++){
-            kursi_bioskop[i][j] = true;  
+// from binary to decimal
+int decimal(string angka){
+    reverse(angka.begin(), angka.end());
+    int hasil = 0;
+    for(int i = 0; i < angka.size(); i++){
+        if(angka[i] == '1'){
+            hasil = hasil + pow(2,i) * 1; 
+        } else {
+            hasil = hasil + pow(2,i) * 0;
         }
-
     }
-    int no_kursi;
-    cout << "Pilih no kursi (1 - 50): " ;
-    cin >> no_kursi;
-    if(no_kursi >= 1 && no_kursi <= 50){
-        int row = (no_kursi - 1) / 10;
-        int col = (no_kursi - 1) % 10;
-        kursi_bioskop[row][col] = 0; 
-
-        cout << "== Denah Kursi Terbaru == " << endl;
-        for(int i = 0; i < 5; i++){
-            for(int j = 0; j < 10; j++){
-                cout << kursi_bioskop[i][j] << " ";
-            }
-            cout << endl;
-        }
-       cout << "Pemesanan berhasil untuk kursi nomor " << no_kursi << endl; 
-    }
-    return no_kursi;
+    return hasil;
 }
 
-void prosesPemesanan(){
-    int harga = pilihFilm();
-    int kursi = pilih_kursi();
-
-    cout << "== Ringkasan ==" << endl;
-    cout << "Nomor kursi : " << kursi << endl;
-    cout << "Total bayar : Rp" << harga << endl;
-    cout << "Pesanan selesai, selamat menonton!" << endl;
+//from decimal to binary
+void binary(int n){
+    if(n == 0){
+        cout << 0;
+        return;
+    }
+    vector<int> bilangan_biner;
+    while(n != 0){
+        int bilangan = n % 2;
+        n /= 2;
+        bilangan_biner.push_back(bilangan);
+    }
+    reverse(bilangan_biner.begin(), bilangan_biner.end());
+    for(int i = 0; i < bilangan_biner.size(); i++){
+        cout << bilangan_biner[i] ;
+    }
 }
-
 
 int main() {
-    cout << "Selamat Datang di BIOSKOP XXI" << endl;
-    char jawaban;
-    cout << "Apakaah anda sudah memesan ticket? (y/n): ";
-    cin >> jawaban;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    if(jawaban == 'y' || jawaban == 'Y'){
-        cout << "Selamat Menonton" << endl;
-    } else {
-        cout << "Anda belum memesan ticket, silakan lakukan pemesanan tiket terlebih dahulu!" << endl;
-        prosesPemesanan();
+    int desimal;
+    string biner;
+    int choose;
+    bool coba_decimal = true;
+    bool coba_biner = true;
+    bool jawaban;
+
+    while(coba_decimal || coba_biner){
+            cout << "INPUT YOUR OPTION (1/2) : " << flush;
+            cin >> choose;
+            if(choose == 1){
+            cout << "INPUT YOUR DECIMAL : " << flush;
+            cin >> desimal;
+            cout << "Your binary is : " ;
+            binary(desimal);
+            cout << endl;
+            } else {
+                cout << "INPUT YOUR BINARY : " << flush;
+                cin >> biner;
+                cout << "Your decimal is : " << decimal(biner) << endl; 
+            }
+        cout << "Repeat? (0 = no /1 = yes)" << flush;
+        cin >> jawaban;
+        if(jawaban == 0){                
+            coba_decimal = false;
+            coba_biner = false;
+            break;
+        }
     }
     return 0;
 }
+
+
+
+
